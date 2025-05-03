@@ -2,7 +2,7 @@ name: Update Icon JSON
 on:
   push:
     paths:
-      - 'icons/*.png'
+      - 'icons/*.png'  # 当icons文件夹下有新的png文件上传时触发
   workflow_dispatch:
     inputs:
       comment:
@@ -22,6 +22,8 @@ jobs:
           node-version: '16'
       - name: Run icon update script
         run: node updateIcons.js
+        env:
+          NODE_ENV: production
       - name: Commit changes
         run: |
           git config user.name "GitHub Action"
