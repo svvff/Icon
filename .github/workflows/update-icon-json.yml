@@ -1,0 +1,28 @@
+name: Update Icon JSON
+on:
+  push:
+    paths:
+      - 'icons/*.{png,jpg,jpeg,svg}'
+
+jobs:
+  update-icon-json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Run icon update script
+        run: node updateIcons.js
+
+      - name: Commit changes
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git add icons.json
+          git commit -m "Update icon JSON" || true
+          git push origin ${{ github.ref }}
