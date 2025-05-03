@@ -2,23 +2,20 @@ name: Update Icon JSON
 on:
   push:
     paths:
-      - 'icons/*.{png,jpg,jpeg,svg}'
+      - 'icons/*.png'  # 假设只有 png 格式，你可以根据实际情况添加其他格式
 
 jobs:
   update-icon-json:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
-
+        uses: actions/checkout@v3  # 更新到 v3 版本，有时新版本会修复一些问题
       - name: Set up Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3  # 更新到 v3 版本
         with:
-          node-version: '14'
-
+          node-version: '16'  # 选择较新的稳定版本，你也可以根据需求调整
       - name: Run icon update script
         run: node updateIcons.js
-
       - name: Commit changes
         run: |
           git config user.name "GitHub Action"
