@@ -1,0 +1,79 @@
+{
+  "name": "Icon",
+  "description": "svvff",
+  "time": "2025-05-03",
+  "icons": [
+    {
+      "name": "WPS128",
+      "url": "https://raw.githubusercontent.com/svvff/Icon/main/icons/WPS128.png"
+    },
+    {
+      "name": "telegram128",
+      "url": "https://raw.githubusercontent.com/svvff/Icon/main/icons/telegram128.png"
+    },
+    {
+      "name": "哔哩哔哩128",
+      "url": "https://raw.githubusercontent.com/svvff/Icon/main/icons/哔哩哔哩128.png"
+    },
+    {
+      "name": "幕布128轻描边",
+      "url": "https://raw.githubusercontent.com/svvff/Icon/main/icons/幕布128轻描边.png"
+    },
+    {
+      "name": "彩云天气Pro描边",
+      "url": "https://raw.githubusercontent.com/svvff/Icon/main/icons/彩云天气Pro描边.png"
+    },
+    {
+      "name": "微信128",
+      "url": "https://raw.githubusercontent.com/svvff/Icon/main/icons/微信128.png"
+    },
+    {
+      "name": "微信小程序128",
+      "url": "https://raw.githubusercontent.com/svvff/Icon/main/icons/微信小程序128.png"
+    },
+    {
+      "name": "拼多多128",
+      "url": "https://raw.githubusercontent.com/svvff/Icon/main/icons/拼多多128.png"
+    },
+    {
+      "name": "星题库128",
+      "url": "https://raw.githubusercontent.com/svvff/Icon/main/icons/星题库128.png"
+    },
+    {
+      "name": "电报128",
+      "url": "https://raw.githubusercontent.com/svvff/Icon/main/icons/电报128.png"
+    },
+    {
+      "name": "百度128",
+      "url": "https://raw.githubusercontent.com/svvff/Icon/main/icons/百度128.png"
+    },
+    {
+      "name": "百度网盘128",
+      "url": "https://raw.githubusercontent.com/svvff/Icon/main/icons/百度网盘128.png"
+    },
+    {
+      "name": "蓝基因128描边",
+      "url": "https://raw.githubusercontent.com/svvff/Icon/main/icons/蓝基因128描边.png"
+    },
+    {
+      "name": "迅雷128",
+      "url": "https://raw.githubusercontent.com/svvff/Icon/main/icons/迅雷128.png"
+    },
+    {
+      "name": "迅雷白128",
+      "url": "https://raw.githubusercontent.com/svvff/Icon/main/icons/迅雷白128.png"
+    },
+    {
+      "name": "酷安128",
+      "url": "https://raw.githubusercontent.com/svvff/Icon/main/icons/酷安128.png"
+    },
+    {
+      "name": "阿里云盘128",
+      "url": "https://raw.githubusercontent.com/svvff/Icon/main/icons/阿里云盘128.png"
+    },
+    {
+      "name": "高德地图128",
+      "url": "https://raw.githubusercontent.com/svvff/Icon/main/icons/高德地图128.png"
+    }
+  ]
+}
