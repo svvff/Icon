@@ -29,8 +29,8 @@ try {
         if (stats.isFile() && iconFile.toLowerCase().endsWith('.png')) {
             const iconInfo = {
                 name: iconFile,
-                // 假设使用相对路径作为链接，根据实际情况调整
-                link: path.join('./icons', iconFile)
+                // 生成图标文件的相对路径链接
+                path: path.join('./icons', iconFile)
             };
             // 检查图标是否已存在于数据中
             const existingIcon = iconsData.find((icon) => icon.name === iconFile);
