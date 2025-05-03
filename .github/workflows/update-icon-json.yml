@@ -2,7 +2,7 @@ name: Update Icon JSON
 on:
   push:
     paths:
-      - 'icons/*.png'  # 当icons文件夹下有新的png文件上传时触发
+      - 'icons/*.png'
   workflow_dispatch:
     inputs:
       comment:
@@ -20,6 +20,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '16'
+      - name: Install dependencies
+        run: npm install moment  # 安装 moment 模块
       - name: Run icon update script
         run: node updateIcons.js
         env:
