@@ -34,3 +34,4 @@ fs.readdirSync(iconsDir).forEach((iconFile) => {
 
 // 将更新后的数据写入 JSON 文件
 fs.writeFileSync(jsonFilePath, JSON.stringify(iconsData, null, 2));
+console.log('已成功更新 icons.json 文件');  // 添加这行用于调试输出
