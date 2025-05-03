@@ -2,18 +2,24 @@ name: Update Icon JSON
 on:
   push:
     paths:
-      - 'icons/*.png'  # 假设只有 png 格式，你可以根据实际情况添加其他格式
+      - 'icons/*.png'
+  workflow_dispatch:
+    inputs:
+      comment:
+        description: '手动触发工作流的备注信息'
+        required: false
+        default: '手动运行更新图标 JSON 文件的工作流'
 
 jobs:
   update-icon-json:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3  # 更新到 v3 版本，有时新版本会修复一些问题
+        uses: actions/checkout@v3
       - name: Set up Node.js
-        uses: actions/setup-node@v3  # 更新到 v3 版本
+        uses: actions/setup-node@v3
         with:
-          node-version: '16'  # 选择较新的稳定版本，你也可以根据需求调整
+          node-version: '16'
       - name: Run icon update script
         run: node updateIcons.js
       - name: Commit changes
