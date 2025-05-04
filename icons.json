@@ -1,7 +1,7 @@
 {
   "name": "Icon",
   "description": "svvff",
-  "time": "2025-05-03",
+  "time": "2025-05-04",
   "icons": [
     {
       "name": "WPS128",
@@ -82,6 +82,14 @@
     {
       "name": "迅雷白底128描边",
       "url": "https://raw.githubusercontent.com/svvff/Icon/main/icons/迅雷白底128描边.png"
+    },
+    {
+      "name": "SubStore128描边",
+      "url": "https://raw.githubusercontent.com/svvff/Icon/main/icons/SubStore128描边.png"
+    },
+    {
+      "name": "应用破解128描边",
+      "url": "https://raw.githubusercontent.com/svvff/Icon/main/icons/应用破解128描边.png"
     }
   ]
 }
