@@ -1,7 +1,7 @@
 {
   "name": "Icon",
   "description": "svvff",
-  "time": "2025-05-05",
+  "time": "2025-05-09",
   "icons": [
     {
       "name": "WPS128",
@@ -94,6 +94,14 @@
     {
       "name": "YouTube128",
       "url": "https://raw.githubusercontent.com/svvff/Icon/main/icons/YouTube128.png"
+    },
+    {
+      "name": "Documents128",
+      "url": "https://raw.githubusercontent.com/svvff/Icon/main/icons/Documents128.png"
+    },
+    {
+      "name": "Github128",
+      "url": "https://raw.githubusercontent.com/svvff/Icon/main/icons/Github128.png"
     }
   ]
 }
