@@ -1,7 +1,7 @@
 {
   "name": "Icon",
   "description": "svvff",
-  "time": "2025-05-09",
+  "time": "2025-05-21",
   "icons": [
     {
       "name": "WPS128",
@@ -106,6 +106,18 @@
     {
       "name": "GitHub128黑",
       "url": "https://raw.githubusercontent.com/svvff/Icon/main/icons/GitHub128黑.png"
+    },
+    {
+      "name": "ScriptHub",
+      "url": "https://raw.githubusercontent.com/svvff/Icon/main/icons/ScriptHub.png"
+    },
+    {
+      "name": "crack",
+      "url": "https://raw.githubusercontent.com/svvff/Icon/main/icons/crack.png"
+    },
+    {
+      "name": "lanjiyin",
+      "url": "https://raw.githubusercontent.com/svvff/Icon/main/icons/lanjiyin.png"
     }
   ]
 }
