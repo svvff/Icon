@@ -1,7 +1,7 @@
 {
   "name": "Icon",
   "description": "svvff",
-  "time": "2025-05-21",
+  "time": "2025-06-06",
   "icons": [
     {
       "name": "WPS128",
@@ -122,6 +122,10 @@
     {
       "name": "SubStore",
       "url": "https://raw.githubusercontent.com/svvff/Icon/main/icons/SubStore.png"
+    },
+    {
+      "name": "KuWo",
+      "url": "https://raw.githubusercontent.com/svvff/Icon/main/icons/KuWo.png"
     }
   ]
 }
